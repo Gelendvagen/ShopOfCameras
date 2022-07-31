@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+ 
+.description span {
+	display: block;
+	font-size: 18px;
+	color: Black;
+	font-weight: 300;
+}
+ 
+.description span:first-child {
+	margin-bottom: 5px;
+}
+
+.description span:last-child {
+	font-weight: 300;
+	margin-top: 8px;
+	color: Black;
+} 
+
+  /* навигация сайта */
+
+.hor_menu ul {
+	list-style: none;
+	display: flex;	
+	padding-left: 0;
+	font: 14pt "Palatino Linotype";
+}
+
+.hor_menu a {
+	padding: 1em;
+	display: block;
+	color: Black;
+	border-right: 1px solid black;
+	background: #d3d8ec;
+}
+
+  /* поля для ввода имени, адреса и телефона */
+
+.contakt {
+	padding: 20px 50px;
+	height: 150px;
+	display: block;
+	width: 750px;
+	margin: 30px auto;
+	background: white;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.10);
+	border-radius: 6px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+}
+
+.quantity-1 input {
+	width: 650px;
+	font-size: 18px;
+	color: Black;
+	font-weight: 300;
+	padding-top: 15px;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+  /* стили для кнопки "купить" */
+
+.custom-btn {
+  margin-left: 660px;
+  margin-top: 10px;
+  margin-right: auto;
+
+  width: 150px;
+  height: 70px;
+  color: black;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-family: 'Trebuchet MS';
+  color: Black;
+  font-weight: 1000;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-4 {
+  background-image:linear-gradient(#c1dae4, #c1c8e4, #ccc1e4);
+  padding: 0;
+}
+
+.btn-4:hover {
+  background-image: linear-gradient(#ccc1e4, #c1c8e4, #c1dae4);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: #CCFFCC;
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -15px;
+  left: 280%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
